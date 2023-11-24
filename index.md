@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I'm a Computer Science Ph.D. candidate at the University of Sheffield's Department of Computer Science.
+I'm a Computer Science Ph.D. candidate at the University of Sheffield's Department of Computer Science, working under Dr Steve Maddock and Dr Zhixiang Chen's supervision.
+
 
 ## Research Interests
 - **3D Reconstruction:** Reconstruct 3D objects with multi-view images / single-view image
