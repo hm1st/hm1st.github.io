@@ -26,6 +26,26 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/publications.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #area-render {
+      position: fixed;
+      width: 320px;
+      height: 160px;
+      right: 4px;
+      bottom: 4px;
+      border: dashed 1px #ccc;
+    }
+  </style>
 
 </head>
 
@@ -43,7 +63,7 @@
       
 
       
-      <position style="font-size:1.10rem;">Ph.D. Candidate</position>
+      <position style="font-size:1.10rem;">First-year Ph.D. Candidate</position>
       <br>
       
       
@@ -84,9 +104,9 @@
           <i class="fab fa-github"></i>
         </a>
         
-        <!-- <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?user=bePCCD8AAAAJ&hl=en">
+        <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?hl=en&user=o_T2zVoAAAAJ&inst=12733411405069140160">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a> -->
+        </a>
         
 
 <!--         
@@ -94,18 +114,10 @@
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         
-
-        
-        
-        
-
-        
         <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/hanchao-ted-zhang-670105b7/?locale=en_US">
           <i class="fab fa-linkedin"></i>
         </a>
-        
 
-        
         <a style="margin: 0 0 0 0" href="https://twitter.com/tedddddy_zhang">
           <i class="fab fa-twitter"></i>
         </a> -->
@@ -118,12 +130,14 @@
 
       <h2 id="about-me">About Me</h2>
 
-<p>I'm a Computer Science Ph.D. candidate at the University of Sheffield's Department of Computer Science, working under Dr Steve Maddock and Dr Zhixiang Chen's supervision.</p>
+<p>I'm a Computer Science Ph.D. candidate at the University of Sheffield's Department of Computer Science, working under <a href="https://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml" rel="noopener" target="_blank">Dr Steve Maddock </a> and <a href="https://zchen06.github.io/" rel="noopener" target="_blank">Dr Zhixiang Chen's </a> supervision.</p>
 <h2 id="research-interests">Research Interests</h2>
 <ul>
   <li><strong>3D Reconstruction:</strong> Reconstruct 3D objects with multi-view images / single-view image</li>
   <li><strong>Zero-shot Text-to-3D Generation/Manipulation:</strong> Lifting text-to-2D generation to 3D domain</li>
 </ul>
+<!-- <h2>Education</h2> -->
+
 
 <!-- <h2 id="awards">Awards</h2>
 <ul>
@@ -222,7 +236,14 @@
 </ol>
 </div>
 
-  
+<!-- <script type="text/javascript" src="./assets/canvas-nest.js/dist/canvas-nest.js"></script> -->
+<script type="text/javascript" color="255,0,0" pointColor="255,255,0" opacity='0.7' zIndex="-2" count="200" src="./assets/canvas-nest.js/dist/canvas-nest.js"></script>
+<script type="text/javascript" src="./assets/canvas-nest.js/dist/canvas-nest.umd.js"></script>
+<script type="text/javascript">
+  var cn = new CanvasNest(document.getElementById('area-render'), {
+    color: '255,0,255',
+    count: 50,
+  });</script>
 </body>
 
 </html>
